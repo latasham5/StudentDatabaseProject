@@ -29,7 +29,7 @@ git clone https://github.com/yourusername/StudentDatabaseProject.git
 2. Set Up the MySQL Database
 - Install MySQL on your machine if you don't have it already.
 - Create a Database:
-  - Log into MySQL and run the following commands to create a school database and a students table.
+  - Log into MySQL and run the following commands to create a `school` database and a `students` table.
 
    ```sql
    CREATE DATABASE school;
@@ -56,7 +56,7 @@ Download the MySQL JDBC connector (JAR file) from here. After downloading:
 ```java
 String jdbcUrl = "jdbc:mysql://localhost:3306/school"; // Database URL
 String username = "root"; // MySQL username
-String password = "yourpassword"; // MySQL password ;
+String password = "yourpassword"; // MySQL password 
 ```
 - Make sure to replace "yourpassword" with your actual MySQL password.
 
